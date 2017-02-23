@@ -1,0 +1,11 @@
+---
+layout: default
+title: Projects
+---
+<h1>{{ page.title }}</h1>
+<ul class="posts">
+  {% assign projects = site.posts | where:"category", "project" %}
+  {% for project in projects %}
+    <li><a href="{{ project.url }}" title="{{ project.title }}">{{ project.title }}</a> (<a href="{{ project.github }}" title="{{ project.title }}">GitHub</a>)</li>
+  {% endfor %}
+</ul>
