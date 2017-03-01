@@ -1,3 +1,4 @@
 name: Nikolas Parshook
 markdown: kramdown
 permalink: /projects/:title.html
+layouts_dir: /site-resources/_layouts
