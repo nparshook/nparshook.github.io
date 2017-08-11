@@ -5,4 +5,4 @@ github: https://github.com/nparshook/nparshook.github.io
 category: project
 ---
 
-This page will talk about my personal website.
+If I do anything cool with the design of my website I will write about it here.
